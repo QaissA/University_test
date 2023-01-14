@@ -1,0 +1,25 @@
+.news-card-xl {
+  position: relative;
+}
+
+.news-card-xl img {
+  border-radius: 25px;
+  box-shadow: 8px 8px 16px rgba($color: #4540e1, $alpha: 0.2);
+}
+
+.headers {
+  position: absolute;
+  bottom: 8%;
+  left: 5%;
+}
+
+.headers h4 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.headers {
+  color: #fff;
+  font: 1rem;
+}

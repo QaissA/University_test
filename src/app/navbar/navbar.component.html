@@ -1,0 +1,24 @@
+<nav class="d-flex justify-content-between">
+  <div class="logo">
+    <img src="../../assets/images/logo.png" alt="" />
+  </div>
+  <div class="navbar-links">
+    <ul class="links d-flex justify-content-around mt-4">
+      <li class="active">
+        <a>Acceuil</a>
+        <div class="pointer"></div>
+      </li>
+      <li><a>Présentation</a></li>
+      <li><a>Formation</a></li>
+      <li><a>Faq</a></li>
+    </ul>
+  </div>
+  <div class="navbar-btns">
+    <i class="bi bi-search m-3"></i>
+    <button class="navbar-login">Se Connecter</button>
+    <button routerLink="form-register" class="navbar-register m-4">
+      S'inscrire
+    </button>
+  </div>
+</nav>
+<router-outlet></router-outlet>

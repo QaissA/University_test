@@ -1,0 +1,41 @@
+.links {
+  font-weight: bold;
+  gap: 40px;
+}
+
+.active {
+  color: #4540e1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pointer {
+  margin-top: 0.2rem;
+  width: 2rem;
+  height: 0.2rem;
+  background-color: #4540e1;
+  border-radius: 2rem;
+}
+
+.navbar-btns i {
+  font-size: 1.2rem;
+}
+
+.navbar-login {
+  color: #4540e1;
+  font-weight: bold;
+  background: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.navbar-register {
+  background-color: #4540e1;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.8rem;
+  border-radius: 25px;
+  font-weight: bold;
+  box-shadow: 8px 8px 16px rgba($color: #4540e1, $alpha: 0.25);
+}
