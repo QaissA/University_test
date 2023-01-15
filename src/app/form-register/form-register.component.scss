@@ -2,3 +2,73 @@
   height: 100vh;
   background-color: #c4c0f6;
 }
+
+.leftside-headers h2 {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #4540e1;
+  text-shadow: 4px 4px 8px rgba($color: #4540e1, $alpha: 0.4);
+}
+
+.leftside-headers h4 {
+  margin-left: 9rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.leftside-img img {
+  width: 60%;
+}
+
+.rightSide-headers {
+  margin-top: 5rem;
+  margin-left: 1rem;
+}
+
+.rightSide-headers h1 {
+  font-weight: bold;
+}
+
+.rightSide-headers h3 {
+  margin-top: 4rem;
+  font-weight: 500;
+}
+
+.input-display {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-display input {
+  width: 80%;
+  padding: 0.5rem 1rem;
+  border: 1px solid #c4c0f6;
+  border-radius: 5px;
+}
+
+.input-display select {
+  width: 80%;
+  padding: 0.8rem 1rem;
+  background-color: transparent;
+  border: 1px solid #c4c0f6;
+  border-radius: 5px;
+}
+
+.form-btn button {
+  background-color: #c4c0f6;
+  border: none;
+  padding: 1rem 5rem;
+  border-radius: 15px;
+  color: #fff;
+  font-weight: 600;
+  margin-left: 4.5rem;
+  margin-top: 1rem;
+  transition: background-color 0.5s ease-in;
+}
+
+.form-btn button:hover {
+  background-color: #4540e1;
+}

@@ -1,6 +1,6 @@
 <nav class="d-flex justify-content-between">
   <div class="logo">
-    <img src="../../assets/images/logo.png" alt="" />
+    <img routerLink="/" src="../../assets/images/logo.png" alt="" />
   </div>
   <div class="navbar-links">
     <ul class="links d-flex justify-content-around mt-4">
@@ -16,7 +16,11 @@
   <div class="navbar-btns">
     <i class="bi bi-search m-3"></i>
     <button class="navbar-login">Se Connecter</button>
-    <button routerLink="form-register" class="navbar-register m-4">
+    <button
+      routerLink="form-register"
+      (click)="gotoRegister()"
+      class="navbar-register m-4"
+    >
       S'inscrire
     </button>
   </div>

@@ -12,6 +12,7 @@ import { ActualitesCardComponent } from './global_components/actualites-card/act
 import { ActualitesCardLargeComponent } from './global_components/actualites-card-large/actualites-card-large.component';
 import { FooterComponent } from './footer/footer.component';
 import { FormRegisterComponent } from './form-register/form-register.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FormRegisterComponent } from './form-register/form-register.component';
     ActualitesCardComponent,
     ActualitesCardLargeComponent,
     FooterComponent,
-    FormRegisterComponent
+    FormRegisterComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,

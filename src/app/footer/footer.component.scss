@@ -1,0 +1,41 @@
+.footer-input {
+  margin-top: 2rem;
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: flex-end;
+}
+
+.footer-input input {
+  margin-right: 2rem;
+  width: 50%;
+  border: none;
+  border-radius: 25px;
+}
+
+.footer-inputIcon {
+  position: absolute;
+  right: 9%;
+  top: 10%;
+  color: #4540e1;
+  cursor: pointer;
+}
+
+.footer-links {
+  font-weight: bold;
+}
+
+.footer-divider {
+  width: 95vw;
+  height: 1px;
+  background-color: #515151;
+  margin: auto;
+}
+
+.footer-text {
+  padding-top: 0.5rem;
+  padding-left: 3.8rem;
+}
+.footer-socials i {
+  font-size: 1.5rem;
+  color: #4540e1;
+}
