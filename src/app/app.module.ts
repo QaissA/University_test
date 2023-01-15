@@ -13,6 +13,8 @@ import { ActualitesCardLargeComponent } from './global_components/actualites-car
 import { FooterComponent } from './footer/footer.component';
 import { FormRegisterComponent } from './form-register/form-register.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,13 +28,16 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     ActualitesCardLargeComponent,
     FooterComponent,
     FormRegisterComponent,
-    LandingPageComponent
+    LandingPageComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
