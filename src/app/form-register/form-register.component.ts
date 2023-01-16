@@ -26,13 +26,13 @@ export class FormRegisterComponent implements OnInit {
   }
 
   addUser() {
-    if (this.UserForm.valid) {
+    // if (this.UserForm.valid) {
       this.service.createUser(this.UserForm.value).subscribe({
         next: (res) => {
           alert('User has registered');
           this.UserForm.reset();
         },
       });
-    }
+    // }
   }
 }

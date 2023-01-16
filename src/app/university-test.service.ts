@@ -11,6 +11,9 @@ export class UniversityTestService {
   constructor(private http: HttpClient) {}
 
   createUser(user: User) {
-    return this.http.post<User>(this.userUrl + '/User', user);
+    const httpHeaders = new HttpHeaders();
+    httpHeaders.append('content-type','application/json')
+
+    return this.http.post<User>(this.userUrl + '/User', user, { headers : httpHeaders});
   }
 }
